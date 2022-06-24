@@ -1,0 +1,23 @@
+@import './normalize.css';
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    margin: 0.4em;
+    text-align: center;
+}
+
+canvas {
+    border: 3px solid black;
+    margin: 1em;
+}
